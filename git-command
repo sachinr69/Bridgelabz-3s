@@ -1,0 +1,26 @@
+//Initialize a Repository
+// git init
+
+// Check Status (Review Before Commit)
+// git status
+
+// Add Files to Staging Area
+// git add .
+
+// Commit with Clear Message
+// git commit -m "Initial commit: add README"
+
+// Create & Switch Branch (Use Branches)
+// git checkout -b feature-demo
+
+// Commit Feature Work
+// git add README.md
+// git commit -m "Add feature notes"
+
+// List All Branches
+// git branch
+
+
+// Merge Branch into Main
+// git checkout master
+// git merge feature-demo
