@@ -23,3 +23,11 @@ function runLengthEncode(str) {
 }
 console.log(runLengthEncode("aaabbc")); // a3b2c1
 
+//Q4
+function firstUnique(str) {
+  let map = {};
+  for (let ch of str) map[ch] = (map[ch] || 0) + 1;
+  for (let ch of str) if (map[ch] === 1) return ch;
+}
+console.log(firstUnique("swiss")); // w
+
